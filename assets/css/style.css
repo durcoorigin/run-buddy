@@ -9,13 +9,18 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
+.flex-row {
+    display: flex;
+}
+
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -129,9 +134,6 @@ header nav ul li a {
 /* Hero Style End*/
 
 /* What We Do Start */
-.intro {
-    text-align: center;
-}
 
 .intro p {
     line-height: 1.7;
@@ -139,12 +141,12 @@ header nav ul li a {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 /* What We Do End */
 
 /* What You Do Start */
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
@@ -174,9 +176,6 @@ header nav ul li a {
 /* What You Do End */
 
 /* Meet the Trainers Start */
-.trainers {
-    text-align: center;
-}
 
 .trainer {
     width: 900px;
@@ -227,7 +226,6 @@ header nav ul li a {
 /* Reach Out Start */
 .contact {
     background-color: #024e76;
-    text-align: center;
 }
 
 .contact h2 {
