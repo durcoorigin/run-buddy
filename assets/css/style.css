@@ -242,7 +242,7 @@ header nav ul li a {
     font-size: 17pz;
 }
 
-   /* Utility Classes */
+        /* ------Utility Classes------ */
 .text-left {
     text-align: left;
     }
@@ -252,7 +252,21 @@ header nav ul li a {
 }
 /* Meet the Trainers End */
 
-/* Reach Out Start */
+        /* ------Service Plans Start------ */
+.service-grid-container {
+    display: grid;
+}
+
+.service-grid-item {
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: solid;
+    color: black;
+}
+        /* ------Service Plans End------ */
+
+        /* ------Reach Out Start------ */
 .contact {
     background-color: #024e76;
 }
