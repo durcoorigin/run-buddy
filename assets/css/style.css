@@ -208,6 +208,7 @@ header nav ul li a {
     background: #024e76;
     color: #fce138;
     flex: 1;
+    text-align: center;
 }
 
 .trainers {
@@ -242,27 +243,40 @@ header nav ul li a {
     font-size: 17pz;
 }
 
-        /* ------Utility Classes------ */
-.text-left {
-    text-align: left;
-    }
-
- .text-right {
-    text-align: right;
-}
 /* Meet the Trainers End */
 
         /* ------Service Plans Start------ */
 .service-grid-container {
+    max-width: 940px;
+    margin: 0;
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 10px;
 }
 
 .service-grid-item {
-    width: 200px;
-    height: 50px;
     background-color: orange;
     border: solid;
+    padding: 1em;
     color: black;
+}
+
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.box2 {
+    grid-column: 3/4;
+    grid-row: 1/-1;
+}
+
+.box3 {
+    grid-column: 2/ span 2;
+    grid-row: 3/ span 1;
 }
         /* ------Service Plans End------ */
 
@@ -333,9 +347,9 @@ header nav ul li a {
 
 
 
-/* Reach Out End */
+        /* ------Reach Out End------ */
 
-/* Apply Designs to <footer> */
+        /* ------Apply Designs to <footer>------ */
 footer {
     background: #fce138;
     width: 100%;
@@ -364,7 +378,7 @@ section {
     padding: 60px;
 }
 
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+        /* ------MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER------ */
 @media screen and (max-width: 980px) {
     header {
         padding-bottom: 0;
