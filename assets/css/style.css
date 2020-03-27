@@ -658,9 +658,6 @@ section {
         flex: 100%;
     }
 
-    .trainer-img h3, .trainer-img h4, .trainer-img::after {
-        display: contents;
-    }
 
     .service-grid-container {
         grid-template-columns: 1fr 1fr;
